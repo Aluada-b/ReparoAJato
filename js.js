@@ -150,7 +150,7 @@ function calcular() {
 
 
 
-  
+
     // Att totais
 
     document.getElementById("totalFiacao").textContent = "R$" + totalFiacao.toFixed(2);
@@ -176,27 +176,27 @@ function calcular() {
 
 
 
-   
+
     // TotalG
-    var totalGeral = totalTorneira + totalLampada + totalMoveis + totalChuveiro + totalGesso + totalFiacao + totalFitas+ totalLuminarias + totalPainel + totalReparos + totalBomba + totalHidraulica + totalEncanamento + totalReparosH + totalTubulacao + totalLixar + totalFachada + totalPinturaG + totalTextura;
-  
+    var totalGeral = totalTorneira + totalLampada + totalMoveis + totalChuveiro + totalGesso + totalFiacao + totalFitas + totalLuminarias + totalPainel + totalReparos + totalBomba + totalHidraulica + totalEncanamento + totalReparosH + totalTubulacao + totalLixar + totalFachada + totalPinturaG + totalTextura;
+
     // Att TotalG
     document.getElementById("total").textContent = "R$" + totalGeral.toFixed(2);
-  }
+}
 
-  
-  function toggleDiv() {
+
+function toggleDiv() {
     var div = document.getElementById("calculadora");
     var btn = document.getElementById("toggleBtn");
     var tabela = document.getElementById("tabela");
     if (div.style.display === "none") {
-      div.style.display = "block";
-      tabela.style.display = "none";
-      btn.innerHTML = "Fechar Calculadora";
+        div.style.display = "block";
+        tabela.style.display = "none";
+        btn.innerHTML = "Fechar Calculadora";
     } else {
-      div.style.display = "none";
-      tabela.style.display = "table";
-      btn.innerHTML = "Calculadora de Serviços";
+        div.style.display = "none";
+        tabela.style.display = "table";
+        btn.innerHTML = "Calculadora de Serviços";
     }
-  }
-  
+}
+

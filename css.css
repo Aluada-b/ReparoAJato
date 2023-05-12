@@ -55,9 +55,8 @@ body {
 }
 
 
-.webToLead label ,
-.WebToCase label
-{
+.webToLead label,
+.WebToCase label {
   display: block;
   margin-bottom: 0.1px;
   font-weight: bold;
@@ -65,11 +64,10 @@ body {
 
 .webToLead input[type="text"],
 .webToLead input[type="email"],
-.webToLead select ,
+.webToLead select,
 .WebToCase input[type="text"],
 .WebToCase input[type="email"],
-.WebToCase textarea
-{
+.WebToCase textarea {
   background-color: #ffffff;
   border: 1px solid #173fad;
   padding: 0.8%;
@@ -79,15 +77,15 @@ body {
 }
 
 .webToLead select {
-    background-color: #ffffff;
-    border: 1px solid #173fad;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 16px;
-    color: #000000;
-    margin-bottom: 10px;
-    width: 51%;
-    box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #173fad;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 10px;
+  width: 51%;
+  box-sizing: border-box;
 
 }
 
@@ -96,8 +94,7 @@ body {
 }
 
 .webToLead input[type=submit],
-.WebToCase input[type=submit]
-{
+.WebToCase input[type=submit] {
   background-color: #faa452;
   color: white;
   border: none;
@@ -155,14 +152,13 @@ input[type="number"] {
 
 
 .calcserv,
-.calcular
-{
+.calcular {
   background-color: #173fad;
   border: none;
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 14px; /* valor reduzido */
+  font-size: 14px;
   display: inline-block;
   margin: 10px;
   cursor: pointer;
@@ -170,17 +166,18 @@ input[type="number"] {
   padding: 10px 20px;
 }
 
-.calcserv:hover, .calcular:hover{
+.calcserv:hover,
+.calcular:hover {
   background-color: #faa452;
 }
 
-.tabela{
+.tabela {
   align-self: center;
   margin-left: 30%;
   margin-right: 30%;
 }
 
-.calculadora{
+.calculadora {
   align-self: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -217,49 +214,59 @@ a {
   border-radius: 10px;
 }
 
+footer {
+  background-color: #173fad;
+  color: #000000;
+  text-align: center;
+  padding: 0.3%;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
 
 @media (max-width: 768px) {
   .nav-list ul {
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
   }
-  
+
   .nav-item {
-    width: 100%; 
-    margin-bottom: 2%; 
+    width: 100%;
+    margin-bottom: 2%;
   }
-  
+
   .nav-link {
     font-size: 14px;
   }
-  
+
   .home,
   .quemSomos,
   .produtos,
   .faleConosco,
   .cadastro {
-    max-width: 90%; 
+    max-width: 90%;
   }
-  
+
   .webToLead input[type="text"],
   .webToLead input[type="email"],
   .webToLead select,
   .WebToCase input[type="text"],
   .WebToCase input[type="email"],
   .WebToCase textarea {
-    width: 90%; 
+    width: 90%;
   }
-  
+
   .webToLead select {
     width: 100%;
   }
-  
+
   .tabela {
-    margin-left: 5%; 
+    margin-left: 5%;
     margin-right: 5%;
   }
-  
+
   .calculadora {
-    margin-left: 5%; 
+    margin-left: 5%;
     margin-right: 5%;
   }
 }
+
