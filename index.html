@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reparo a Jato</title>
+
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon"
+        href="https://64.media.tumblr.com/73f3e2a50afd009b97438300ace10a38/72126c135982a57c-f4/s540x810/5571e5d2e81cdf93f67c0786783780094794220d.pnj">
+
+</head>
+
+<body>
+
+
+
+    <header>
+        <nav class="nav-bar">
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"> <button onclick="handleClick1()" class="nav-link">Home</button></li>
+                    <li class="nav-item"> <button onclick="handleClick2()" class="nav-link">Serviços</button></li>
+                    <li class="nav-item"> <button onclick="handleClick3()" class="nav-link">Quem Somos</button></li>
+                    <li class="nav-item"> <button onclick="handleClick4()" class="nav-link">Fale Conosco</button></li>
+                    <li class="nav-item"> <button onclick="handleClick5()" class="nav-link">Cadastro</button></li>
+                </ul>
+            </div>
+
+
+        </nav>
+
+    </header>
+
+    <main class="container1">
+
+        <div id="home" class="home">
+
+            <main class="content">
+                <section class="hero">
+                    <div class="container">
+                        <img src="https://64.media.tumblr.com/31c5b66e743dcbfa3068bc5892a914a7/0036f8ab16bf3ee9-7a/s540x810/04f7ce6f564d5999f99dcb16c8c075effff2d30c.gifv" alt="Reparo a Jato">
+
+                    </div>
+                </section>
+
+                <section class="services">
+                    <div class="container">
+                        <h2>Nossos serviços</h2>
+                        <p>Conheça nossos serviços e descubra como podemos ajudar você:</p>
+                        <div class="services-list">
+                            <div class="service">
+                                <img src="https://64.media.tumblr.com/2617c2b7979cd758a8ffc8af5f894d8c/5fe15d038e7b26ec-6f/s540x810/4b0f5cb7cb5845b907539aa762fe8641a2b54b96.gifv" alt="Serviços">
+                            </div>
+                            <div class="service">
+                                <img src="https://64.media.tumblr.com/f261e32ef2a048fb8a034750787849ff/d59e43f396871c19-a6/s540x810/b0160af320ad43e35dfa2bbbac3c1b7504e555a3.gifv" alt="Serviços">
+                            </div>
+                            <div class="service">
+                                <img src="https://64.media.tumblr.com/c26c305470c0b6a277924a0dacb5a951/aed214fa94398ad5-70/s540x810/39242e127cf100259c7f0a2067453f2ff8b38084.gifv" alt="Serviços">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+        </div>
+
+        <div id="produtos" class="produtos">
+
+            <button class="calcserv" id="toggleBtn" onclick="toggleDiv()">Calculadora de Serviços</button> </br>
+
+            <div class="container2">
+                <div class="tabela" id="tabela">
+
+                    <table>
+                        <tr>
+                            <th>Serviço</th>
+                            <th>Preço</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Jato Elétrico</th>
+                        </tr>
+                        <tr>
+                            <td>Fiação</td>
+                            <td>R$ 1.000,00</td>
+                        </tr>
+                        <tr>
+                            <td>Fitas de led</td>
+                            <td>R$ 800,00</td>
+                        </tr>
+                        <tr>
+                            <td>Luminárias, interruptores e tomadas</td>
+                            <td>R$ 600,00</td>
+                        </tr>
+                        <tr>
+                            <td>Painel elétrico</td>
+                            <td>R$ 1.100,00</td>
+                        </tr>
+                        <tr>
+                            <td>Reparos Elétricos</td>
+                            <td>R$ 500,00</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Jato Hidráulico</th>
+                        </tr>
+                        <tr>
+                            <td>Casa de Bomba</td>
+                            <td>R$ 5.000,00</td>
+                        </tr>
+                        <tr>
+                            <td>Instalação hidráulica</td>
+                            <td>R$ 350,00</td>
+                        </tr>
+                        <tr>
+                            <td>Reparo de encanamentos</td>
+                            <td>R$ 400,00</td>
+                        </tr>
+                        <tr>
+                            <td>Reparos Hidráulicos</td>
+                            <td>R$ 500,00</td>
+                        </tr>
+                        <tr>
+                            <td>Tubulação de água fria e quente</td>
+                            <td>R$ 2.000,00</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Jato Pintura</th>
+                        </tr>
+                        <tr>
+                            <td>Lixar e uniformizar paredes</td>
+                            <td>R$ 1.600,00</td>
+                        </tr>
+                        <tr>
+                            <td>Pintura de Fachada</td>
+                            <td>R$ 1.500,00</td>
+                        </tr>
+                        <tr>
+                            <td>Pintura em geral</td>
+                            <td>R$ 120,00</td>
+                        </tr>
+                        <tr>
+                            <td>Texturas</td>
+                            <td>R$ 1.500,00</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Jato Express</th>
+                        </tr>
+                        <tr>
+                            <td>Instalação de chuveiro elétrico</td>
+                            <td>R$ 150,00</td>
+                        </tr>
+                        <tr>
+                            <td>Reparo de Gesso</td>
+                            <td>R$ 200,00</td>
+                        </tr>
+                        <tr>
+                            <td>Reparo de móveis</td>
+                            <td>R$ 200,00</td>
+                        </tr>
+                        <tr>
+                            <td>Troca de Lâmpada</td>
+                            <td>R$ 80,00</td>
+                        </tr>
+                        <tr>
+                            <td>Troca de torneira</td>
+                            <td>R$ 150,00</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Jato Público</th>
+                        </tr>
+                        <tr>
+                            <td>Iluminação pública</td>
+                            <td>R$ 400,00</td>
+                        </tr>
+                        <tr>
+                            <td>Instalação de painéis publicitários</td>
+                            <td>R$ 600,00</td>
+                        </tr>
+                        <tr>
+                            <td>Manutenção de parques</td>
+                            <td>R$ 700,00</td>
+                        </tr>
+                        <tr>
+                            <td>Manutenção de praças</td>
+                            <td>R$ 500,00</td>
+                        </tr>
+                        <tr>
+                            <td>Obras de urbanização</td>
+                            <td>R$ 2.000,00</td>
+                        </tr>
+                        <tr>
+                            <td>Reparo de calçadas</td>
+                            <td>R$ 650,00</td>
+                        </tr>
+                        <tr>
+                            <td>Reparo de ruas</td>
+                            <td>R$ 500,00</td>
+                        </tr>
+                        <tr>
+                            <td>Revestimento de piso</td>
+                            <td>R$ 250,00</td>
+                        </tr>
+                        <tr>
+                            <td>Serviço de poda de árvores</td>
+                            <td>R$ 500,00</td>
+                        </tr>
+                        <tr>
+                            <td>Serviços de construção</td>
+                            <td>R$ 900,00</td>
+                        </tr>
+                        <tr>
+                            <td>Serviços de reparo de telhados</td>
+                            <td>R$ 200,00</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+
+                <div class="calculadora" id="calculadora" style="display: none;">
+
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Serviço</th>
+                                <th>Preço</th>
+                                <th>Quantidade</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>Fiação</td>
+                                <td>R$ 1.000,00 / m</td>
+                                <td><input type="number" id="e1" name="fiacao" value="0"></td>
+                                <td><span id="totalFiacao">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Fitas de led</td>
+                                <td>R$ 800,00 / m</td>
+                                <td><input type="number" id="e2" name="fitas" value="0"></td>
+                                <td><span id="totalFitas">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Luminárias, interruptores e tomadas</td>
+                                <td>R$ 600,00 / un</td>
+                                <td><input type="number" id="e3" name="luminarias" value="0"></td>
+                                <td><span id="totalLuminarias">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Painel elétrico</td>
+                                <td>R$ 1.100,00 / un</td>
+                                <td><input type="number" id="e4" name="painel" value="0"></td>
+                                <td><span id="totalPainel">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Reparos Elétricos</td>
+                                <td>R$ 500,00 / m</td>
+                                <td><input type="number" id="e5" name="reparos" value="0"></td>
+                                <td><span id="totalReparos">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Casa de bomba</td>
+                                <td>R$ 5.000,00 </td>
+                                <td><input type="number" id="h1" name="bomba" value="0"></td>
+                                <td><span id="totalBomba">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Instalação hidráulica</td>
+                                <td>R$ 350,00 / m</td>
+                                <td><input type="number" id="h2" name="hidraulica" value="0"></td>
+                                <td><span id="totalHidraulica">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Reparo de encanamento</td>
+                                <td>R$ 400,00 / un</td>
+                                <td><input type="number" id="h3" name="encanamento" value="0"></td>
+                                <td><span id="totalEncanamento">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Reparos hidráulicos</td>
+                                <td>R$ 500,00 / m</td>
+                                <td><input type="number" id="h4" name="reparoh" value="0"></td>
+                                <td><span id="totalReparosH">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Tubulação de água (fria e quente)</td>
+                                <td>R$ 2.000,00 / un</td>
+                                <td><input type="number" id="h5" name="tubulacao" value="0"></td>
+                                <td><span id="totalTubulacao">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Lixar e uniformizar paredes</td>
+                                <td>R$ 1.600,00 / m²</td>
+                                <td><input type="number" id="p1" name="lixar" value="0"></td>
+                                <td><span id="totalLixar">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Pintura de fachada</td>
+                                <td>R$ 1.500,00 / m²</td>
+                                <td><input type="number" id="p2" name="fachada" value="0"></td>
+                                <td><span id="totalFachada">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Pintura em geral</td>
+                                <td>R$ 120,00 / m²</td>
+                                <td><input type="number" id="p3" name="pinturag" value="0"></td>
+                                <td><span id="totalPinturaG">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Texturas</td>
+                                <td>R$ 1.500,00 / m²</td>
+                                <td><input type="number" id="p4" name="textura" value="0"></td>
+                                <td><span id="totalTextura">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Instalação de chuveiros elétricos</td>
+                                <td>R$ 150,00 / un</td>
+                                <td><input type="number" id="g1" name="chuveiro" value="0"></td>
+                                <td><span id="totalChuveiro">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Reparo de gesso</td>
+                                <td>R$ 200,00 / m²</td>
+                                <td><input type="number" id="g2" name="gesso" value="0"></td>
+                                <td><span id="totalGesso">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Reparo de móveis</td>
+                                <td>R$ 200,00 / un</td>
+                                <td><input type="number" id="g3" name="moveis" value="0"></td>
+                                <td><span id="totalMoveis">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Troca de lâmpada</td>
+                                <td>R$ 80,00 / un</td>
+                                <td><input type="number" id="g4" name="lampada" value="0"></td>
+                                <td><span id="totalLampada">R$0.00</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Troca de torneira</td>
+                                <td>R$ 150,00 / un</td>
+                                <td><input type="number" id="g5" name="torneira" value="0"></td>
+                                <td><span id="totalTorneira">R$0.00</span></td>
+                            </tr>
+
+
+
+                            <td colspan="3">Total:</td>
+                            <td><span id="total">R$0.00</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <button class="calcular" onclick="calcular()">Calcular</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="quemSomos" class="quemSomos">
+
+            <div class="sobre-nos">
+
+                <img src="https://64.media.tumblr.com/6fc9493ec1f80f84664dfa15793ab2c4/756e9999ebbddd54-30/s540x810/8e8042da3d198e5f548e7e2669a1d5f9d10abc18.pnj"
+                    alt="Reparo a Jato">
+
+                <div class="texto">
+                    <i>
+                        <p>A empresa Reparo a Jato tem um modelo de negócios diferenciado. Oferecemos serviços de
+                            reparos tanto para clientes residenciais como para órgãos governamentais, por meio de
+                            parcerias com os governos Federal, Estadual e Municipal.</p>
+                        <p>A empresa é especializada em pequenos e grandes reparos que podem ser solicitados a qualquer
+                            momento e realizados com rapidez e segurança.</p>
+                        <p>Além disso, a empresa se destaca pela facilidade de solicitação dos serviços, que podem ser
+                            realizados de forma rápida e descomplicada.</p>
+                        <p>Com uma equipe de profissionais qualificados e experientes, a Reparo a Jato oferece um
+                            atendimento personalizado e eficiente, garantindo a satisfação dos clientes e a qualidade
+                            dos serviços prestados.</p>
+                    </i>
+                </div>
+            </div>
+        </div>
+
+        <div id="faleConosco" class="faleConosco">
+
+
+            <h2 style="color:#173fad">Atendimento via e-mail</h2>
+            <h4 style="color:#fac339">Horários de atendimento:</h4>
+            <h5 style="font-weight: lighter;"> Segunda a Sexta | 9h às 17h </h5>
+
+            <div class="WebToCase">
+
+                <form onsubmit="exibirAviso()" action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+                    <input type=hidden name="orgid" value="00DDp0000016yoD">
+
+
+                    <label for="name">Nome</label><input id="name" maxlength="80" name="name" size="20" type="text"
+                        required />
+
+                    <label for="email">Email</label><input type="email" id="email" maxlength="80" name="email" size="20"
+                        type="text" required />
+
+                    <label for="phone">Telefone</label><input id="phone" maxlength="40" name="phone" size="20"
+                        type="text" required />
+
+                    <label for="subject">Assunto</label><input id="subject" maxlength="80" name="subject" size="20"
+                        type="text" required />
+
+                    <label for="description">Descrição</label><textarea name="description" required></textarea><br>
+
+                    <input type="submit">
+                    <name="submit">
+
+                </form>
+
+            </div>
+            <p>
+                </br>
+                </br>
+                </br>
+            <h2 style="color:#173fad">SAC</h2>
+            <h4 style="color:#fac339">Horários de atendimento:</h4>
+            <h5 style="font-weight: lighter;"> Segunda a Sexta | 8h às 18h </h5>
+            <a href="tel:+559229839852092">
+                <h4><b>Central Amazonas</b> </h4>
+            </a>
+            <h4 style="font-weight: lighter;">92 298 3985 2092</h4>
+            <a href="tel:+559129839852091">
+                <h4><b>Central Pará </b> </h4>
+            </a>
+            <h4 style="font-weight: lighter;">91 298 3985 2091</h4>
+            <a href="tel:+559529839852095">
+                <h4><b>Central Roraima </b></h4>
+            </a>
+            <h4 style="font-weight: lighter;">95 298 3985 2095</h4>
+
+            </p>
+
+        </div>
+
+        <div id="cadastro" class="cadastro">
+
+
+            <div class="webToLead">
+
+                <form onsubmit="exibirAviso()" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+
+                    <input type=hidden name="oid" value="00DDp0000016yoD">
+                    <input type=hidden name="retURL" value="file:///C:/Users/beatr/Documents/Site/index.html">
+
+
+
+                    <label for="first_name">Primeiro Nome</label><input id="first_name" maxlength="40" name="first_name"
+                        size="20" type="text" required />
+
+                    <label for="last_name">Sobrenome</label><input id="last_name" maxlength="80" name="last_name"
+                        size="20" type="text" required />
+
+                    <label for="company">Empresa</label><input id="company" maxlength="40" name="company" size="20"
+                        type="text" required />
+
+                    <label for="email">Email</label><input type="email" id="email" maxlength="80" name="email" size="20"
+                        type="text" required />
+
+                    <label for="mobile">Celular</label><input id="mobile" maxlength="40" name="mobile" size="20"
+                        type="text" required /> </br>
+
+
+                    <label for="Estado__c">Estado</label>
+                    <select id="00NDp0000059hhk" name="00NDp0000059hhk" title="Estado" required>
+                        <option value="" selected>-- Nenhum --</option>
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                    </select></br>
+
+                    <label for="lead_source">Onde nos conheceu</label>
+                    <select id="lead_source" name="lead_source" required>
+                        <option value="" selected>-- Nenhum --</option>
+                        <option value="Web">Web</option>
+                        <option value="Phone Inquiry">Consulta por Telefone</option>
+                        <option value="Partner Referral">Indicação</option>
+                        <option value="Other">Outro</option>
+                    </select> </br>
+
+                    <input type="submit" name="submit">       
+
+                </form>
+                <script>
+                    function exibirAviso() {
+                      alert("Seus dados já estão com o nosso time! Aguarde nosso contato em breve!");
+                    }
+                  </script>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="js.js"></script>
+
+
+</body>
+
+</html>

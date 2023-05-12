@@ -1,0 +1,265 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #faa452;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: #173fad;
+  color: white;
+  width: auto;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 2%;
+}
+
+.nav-link {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container1 {
+  margin-top: 0.5%;
+}
+
+.home,
+.quemSomos,
+.produtos,
+.faleConosco,
+.cadastro {
+  border-radius: 8px;
+  padding: 5%;
+  text-align: center;
+  max-width: 60%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-bottom: 5%;
+}
+
+
+.webToLead label ,
+.WebToCase label
+{
+  display: block;
+  margin-bottom: 0.1px;
+  font-weight: bold;
+}
+
+.webToLead input[type="text"],
+.webToLead input[type="email"],
+.webToLead select ,
+.WebToCase input[type="text"],
+.WebToCase input[type="email"],
+.WebToCase textarea
+{
+  background-color: #ffffff;
+  border: 1px solid #173fad;
+  padding: 0.8%;
+  border-radius: 4px;
+  margin-bottom: 2%;
+  width: 50%;
+}
+
+.webToLead select {
+    background-color: #ffffff;
+    border: 1px solid #173fad;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+    width: 51%;
+    box-sizing: border-box;
+
+}
+
+.webToLead select::-ms-expand {
+  display: none;
+}
+
+.webToLead input[type=submit],
+.WebToCase input[type=submit]
+{
+  background-color: #faa452;
+  color: white;
+  border: none;
+  padding: 1% 2%;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.webToLead input[type=submit]:hover {
+  background-color: #173fad;
+}
+
+button {
+  background-color: #173fad;
+  border: none;
+  color: white;
+  padding: 5% 8%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0.10%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+th {
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  color: #173fad;
+  padding: 8px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+input[type="number"] {
+  width: 60px;
+  border-radius: 5px;
+  text-align: center;
+  border: 0.1px solid #ccc;
+}
+
+
+.calcserv,
+.calcular
+{
+  background-color: #173fad;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px; /* valor reduzido */
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.calcserv:hover, .calcular:hover{
+  background-color: #faa452;
+}
+
+.tabela{
+  align-self: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.calculadora{
+  align-self: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+.texto {
+  width: 100%;
+  text-align: justify;
+}
+
+a {
+  color: #faa452;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fac339;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .nav-list ul {
+    flex-wrap: wrap; 
+  }
+  
+  .nav-item {
+    width: 100%; 
+    margin-bottom: 2%; 
+  }
+  
+  .nav-link {
+    font-size: 14px;
+  }
+  
+  .home,
+  .quemSomos,
+  .produtos,
+  .faleConosco,
+  .cadastro {
+    max-width: 90%; 
+  }
+  
+  .webToLead input[type="text"],
+  .webToLead input[type="email"],
+  .webToLead select,
+  .WebToCase input[type="text"],
+  .WebToCase input[type="email"],
+  .WebToCase textarea {
+    width: 90%; 
+  }
+  
+  .webToLead select {
+    width: 100%;
+  }
+  
+  .tabela {
+    margin-left: 5%; 
+    margin-right: 5%;
+  }
+  
+  .calculadora {
+    margin-left: 5%; 
+    margin-right: 5%;
+  }
+}
