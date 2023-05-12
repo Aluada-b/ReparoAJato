@@ -76,6 +76,10 @@ body {
   width: 50%;
 }
 
+.WebToCase textarea{
+  font-family: Arial, sans-serif;
+}
+
 .webToLead select {
   background-color: #ffffff;
   border: 1px solid #173fad;
